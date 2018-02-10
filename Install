@@ -1,0 +1,4 @@
+To install opnecv for anaconda python
+To install this package with conda run one of the following:
+  conda install -c conda-forge opencv
+  conda install -c conda-forge/label/broken opencv 
