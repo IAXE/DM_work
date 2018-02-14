@@ -1,9 +1,4 @@
 
-"""
-Created on Sun Feb 11 03:36:11 2018
-
-@author: eddy
-"""
 import numpy as np
 import cv2
 
