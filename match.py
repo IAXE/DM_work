@@ -35,6 +35,6 @@ for m,n in matches:
         count +=1
 print count 
 # cv2.drawMatchesKnn expects list of lists as matches.
-img3 = cv2.drawMatchesKnn(img1,kp1,img2,kp2,good,img2.copy(),flags=2)
+#img3 = cv2.drawMatchesKnn(img1,kp1,img2,kp2,good,img2.copy(),flags=2)
  
-plt.imshow(img3),plt.show()
+#plt.imshow(img3),plt.show()
