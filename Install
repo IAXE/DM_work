@@ -11,3 +11,8 @@ conda install -c https://conda.binstar.org/menpo opencv3
 Crear un ambiente virtual con virtualenv
 eddy@IAX:~$ virtualenv proy_mineria_1
 (proy_mineria_1) eddy@IAX:~$ source proy_mineria_1/bin/activate
+
+Instalación de librerías requeridas
+(proy_mineria_1) eddy@IAX:~$ pip install numpy
+(proy_mineria_1) eddy@IAX:~$ pip install scipy scikit-learn matplotlib
+(proy_mineria_1) eddy@IAX:~$ pip install opencv-contrib-python
