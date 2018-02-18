@@ -8,3 +8,6 @@ conda create -n opencv numpy scipy scikit-learn matplotlib python=2.7
 source activate opencv
 conda install -c https://conda.binstar.org/menpo opencv3
 
+Crear un ambiente virtual con virtualenv
+eddy@IAX:~$ virtualenv proy_mineria_1
+(proy_mineria_1) eddy@IAX:~$ source proy_mineria_1/bin/activate
