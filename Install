@@ -16,3 +16,5 @@ Instalación de librerías requeridas
 (proy_mineria_1) eddy@IAX:~$ pip install numpy
 (proy_mineria_1) eddy@IAX:~$ pip install scipy scikit-learn matplotlib
 (proy_mineria_1) eddy@IAX:~$ pip install opencv-contrib-python
+
+En amazon tmbién existe la posibilidad de crear ambientes virtuales
