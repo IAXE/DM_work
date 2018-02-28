@@ -7,7 +7,7 @@ captura = cv2.VideoCapture('Hachiko.mkv')
 Total_frames=int(captura.get(7)) #Número total de frames que contiene la pelicula
 print Total_frames
 
-for i in range(0,Total_frames+1,10):
+for i in range(0,Total_frames+1,10): #Para seleccionar cada 10 frames
     captura.set(1,i)    #selecciono el frame con valor i
     print captura.get(1)
     ret, frame = captura.read()
